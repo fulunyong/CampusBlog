@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev #环境配置- dev：开发环境 qa：测试环境 prod：生产环境
+#  jpa:
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+#        max_fetch_depth: 1
+#        default_batch_fetch_size: 4
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates
+
+#endpoints:
+#  actuator:
+#    enabled: true
+#    sensitive: false
